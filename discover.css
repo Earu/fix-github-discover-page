@@ -1,66 +1,40 @@
-.overflow-hidden > .p-responsive {
+/* spotlights */
+.application-main > main:nth-child(1) > div:nth-child(1) {
     display: none !important;
 }
 
-div.border-gray-light:nth-child(3) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1) {
-    display: none !important;
-}
-
-#trending {
-    display: none !important;
-}
-
-div.container-xl:nth-child(4) {
-    display: none !important;
-}
-
-div.mr-n3:nth-child(4){
-    display: none !important;
-}
-
-div.d-sm-flex:nth-child(3) {
-    display: none !important;
-}
-
-#select-menu-trending {
-    display: none !important;
-}
-
-h2.f2:nth-child(1), #newsletter, form.d-block, .btn-blue {
-    display: none !important;
-    height: 0 !important;
-    width: 0 !important;
-    border: none !important;
-    background: transparent !important;
-}
-
-footer {
-    display: none !important;
-}
-
+/* explore navbar */
 .site-subnav {
     display: none !important;
 }
 
-div.border-gray-light:nth-child(3) {
-    height: 100vh !important;
+/* topics */
+div.container-xl:nth-child(4) {
+    display: none !important;
 }
 
-div.border-gray-light:nth-child(3) > div:nth-child(1) > div:nth-child(2) {
-    overflow-y: hidden !important;
+/* trending repos */
+div.mr-n3:nth-child(4) > div:nth-child(1) {
+    display: none !important;
 }
 
+/* trending header */
+div.d-sm-flex:nth-child(3) {
+    display: none !important;
+}
+
+/* scrollable discover */
 div.border-gray-light:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
-    height: 75vh;
-    margin: 0;
-}
-
-div.border-gray-light:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > article {
     display: block !important;
 }
 
-div.border-gray-light:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > article > div {
-    display: block !important;
-    width: 47.5vw !important;
-    margin-bottom: 10px;
+/* discover repository */
+div.mr-n3:nth-child(4) > div:nth-child(1) > article, div.border-gray-light:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > article {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+}
+
+/* mail explore */
+#newsletter {
+    display: none !important;
 }
