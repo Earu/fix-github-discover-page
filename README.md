@@ -1,4 +1,4 @@
 # fix-github-discover-page
-A CSS hack to get a similar experience to the old "discover repositories" page. 
+A CSS hack to get a similar experience to the old `discover repositories` page. 
 
-Status:  WIP
+![preview](https://i.imgur.com/10odsaf.png)
